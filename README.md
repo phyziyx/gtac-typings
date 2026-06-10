@@ -1,2 +1,3 @@
 # gtac-typings
-Typings for GTA Connected
+
+TypeScript typings for GTA Connected.

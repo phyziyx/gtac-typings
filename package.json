@@ -1,0 +1,34 @@
+{
+  "name": "gtac-typings",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Shared TypeScript typings for GTA Connected, including server, client, and game-specific natives.",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    "./shared": {
+      "types": "./src/shared/index.d.ts"
+    },
+    "./server": {
+      "types": "./src/server/index.d.ts"
+    },
+    "./client": {
+      "types": "./src/client/index.d.ts"
+    },
+    "./games/gtaiv": {
+      "types": "./src/games/gtaiv/index.d.ts"
+    },
+    "./games/gta3": {
+      "types": "./src/games/gta3/index.d.ts"
+    },
+    "./games/vc": {
+      "types": "./src/games/vc/index.d.ts"
+    },
+    "./games/sa": {
+      "types": "./src/games/sa/index.d.ts"
+    }
+  },
+  "files": [
+    "*.d.ts"
+  ]
+}
